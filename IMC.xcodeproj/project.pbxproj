@@ -14,7 +14,6 @@
 		A05F85662AD9FB7900ABA1D8 /* CompactSlider in Frameworks */ = {isa = PBXBuildFile; productRef = A05F85652AD9FB7900ABA1D8 /* CompactSlider */; };
 		A05F856A2ADA128E00ABA1D8 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05F85692ADA128E00ABA1D8 /* ResultView.swift */; };
 		A060CFC02ADDE79700DE6D0D /* CalculateIMC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A060CFBF2ADDE79700DE6D0D /* CalculateIMC.swift */; };
-		A060CFC52ADDFABD00DE6D0D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A060CFC42ADDFABD00DE6D0D /* README.md */; };
 		A060CFC92ADDFBCF00DE6D0D /* cover.png in Resources */ = {isa = PBXBuildFile; fileRef = A060CFC82ADDFBCF00DE6D0D /* cover.png */; };
 /* End PBXBuildFile section */
 
@@ -26,7 +25,6 @@
 		A05F855B2AD9D87400ABA1D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A05F85692ADA128E00ABA1D8 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
 		A060CFBF2ADDE79700DE6D0D /* CalculateIMC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateIMC.swift; sourceTree = "<group>"; };
-		A060CFC42ADDFABD00DE6D0D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A060CFC82ADDFBCF00DE6D0D /* cover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cover.png; path = ../../../../Downloads/cover.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -65,7 +63,6 @@
 				A05F85682ADA0FF900ABA1D8 /* View */,
 				A05F85582AD9D87400ABA1D8 /* Assets.xcassets */,
 				A05F855A2AD9D87400ABA1D8 /* Preview Content */,
-				A060CFC42ADDFABD00DE6D0D /* README.md */,
 				A060CFC82ADDFBCF00DE6D0D /* cover.png */,
 			);
 			path = IMC;
@@ -161,7 +158,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A060CFC52ADDFABD00DE6D0D /* README.md in Resources */,
 				A05F855C2AD9D87400ABA1D8 /* Preview Assets.xcassets in Resources */,
 				A05F85592AD9D87400ABA1D8 /* Assets.xcassets in Resources */,
 				A060CFC92ADDFBCF00DE6D0D /* cover.png in Resources */,
