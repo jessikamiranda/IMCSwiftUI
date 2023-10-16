@@ -11,6 +11,11 @@
 		A05F85572AD9D87300ABA1D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05F85562AD9D87300ABA1D8 /* ContentView.swift */; };
 		A05F85592AD9D87400ABA1D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A05F85582AD9D87400ABA1D8 /* Assets.xcassets */; };
 		A05F855C2AD9D87400ABA1D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A05F855B2AD9D87400ABA1D8 /* Preview Assets.xcassets */; };
+		A05F85662AD9FB7900ABA1D8 /* CompactSlider in Frameworks */ = {isa = PBXBuildFile; productRef = A05F85652AD9FB7900ABA1D8 /* CompactSlider */; };
+		A05F856A2ADA128E00ABA1D8 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05F85692ADA128E00ABA1D8 /* ResultView.swift */; };
+		A060CFC02ADDE79700DE6D0D /* CalculateIMC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A060CFBF2ADDE79700DE6D0D /* CalculateIMC.swift */; };
+		A060CFC52ADDFABD00DE6D0D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A060CFC42ADDFABD00DE6D0D /* README.md */; };
+		A060CFC92ADDFBCF00DE6D0D /* cover.png in Resources */ = {isa = PBXBuildFile; fileRef = A060CFC82ADDFBCF00DE6D0D /* cover.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,10 @@
 		A05F85562AD9D87300ABA1D8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A05F85582AD9D87400ABA1D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A05F855B2AD9D87400ABA1D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A05F85692ADA128E00ABA1D8 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		A060CFBF2ADDE79700DE6D0D /* CalculateIMC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateIMC.swift; sourceTree = "<group>"; };
+		A060CFC42ADDFABD00DE6D0D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A060CFC82ADDFBCF00DE6D0D /* cover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cover.png; path = ../../../../Downloads/cover.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A05F85662AD9FB7900ABA1D8 /* CompactSlider in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,10 +61,12 @@
 		A05F85532AD9D87300ABA1D8 /* IMC */ = {
 			isa = PBXGroup;
 			children = (
-				A05F85542AD9D87300ABA1D8 /* IMCApp.swift */,
-				A05F85562AD9D87300ABA1D8 /* ContentView.swift */,
+				A060CFBE2ADC71D000DE6D0D /* Helpers */,
+				A05F85682ADA0FF900ABA1D8 /* View */,
 				A05F85582AD9D87400ABA1D8 /* Assets.xcassets */,
 				A05F855A2AD9D87400ABA1D8 /* Preview Content */,
+				A060CFC42ADDFABD00DE6D0D /* README.md */,
+				A060CFC82ADDFBCF00DE6D0D /* cover.png */,
 			);
 			path = IMC;
 			sourceTree = "<group>";
@@ -65,6 +77,24 @@
 				A05F855B2AD9D87400ABA1D8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A05F85682ADA0FF900ABA1D8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A05F85542AD9D87300ABA1D8 /* IMCApp.swift */,
+				A05F85562AD9D87300ABA1D8 /* ContentView.swift */,
+				A05F85692ADA128E00ABA1D8 /* ResultView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A060CFBE2ADC71D000DE6D0D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A060CFBF2ADDE79700DE6D0D /* CalculateIMC.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +113,9 @@
 			dependencies = (
 			);
 			name = IMC;
+			packageProductDependencies = (
+				A05F85652AD9FB7900ABA1D8 /* CompactSlider */,
+			);
 			productName = IMC;
 			productReference = A05F85512AD9D87300ABA1D8 /* IMC.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +144,9 @@
 				Base,
 			);
 			mainGroup = A05F85482AD9D87300ABA1D8;
+			packageReferences = (
+				A05F85642AD9FB7900ABA1D8 /* XCRemoteSwiftPackageReference "CompactSlider" */,
+			);
 			productRefGroup = A05F85522AD9D87300ABA1D8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,8 +161,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A060CFC52ADDFABD00DE6D0D /* README.md in Resources */,
 				A05F855C2AD9D87400ABA1D8 /* Preview Assets.xcassets in Resources */,
 				A05F85592AD9D87400ABA1D8 /* Assets.xcassets in Resources */,
+				A060CFC92ADDFBCF00DE6D0D /* cover.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +175,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A05F856A2ADA128E00ABA1D8 /* ResultView.swift in Sources */,
+				A060CFC02ADDE79700DE6D0D /* CalculateIMC.swift in Sources */,
 				A05F85572AD9D87300ABA1D8 /* ContentView.swift in Sources */,
 				A05F85552AD9D87300ABA1D8 /* IMCApp.swift in Sources */,
 			);
@@ -344,6 +384,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A05F85642AD9FB7900ABA1D8 /* XCRemoteSwiftPackageReference "CompactSlider" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/buh/CompactSlider.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A05F85652AD9FB7900ABA1D8 /* CompactSlider */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A05F85642AD9FB7900ABA1D8 /* XCRemoteSwiftPackageReference "CompactSlider" */;
+			productName = CompactSlider;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A05F85492AD9D87300ABA1D8 /* Project object */;
 }
