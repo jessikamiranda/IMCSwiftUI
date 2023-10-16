@@ -11,8 +11,6 @@ struct ContentView: View {
     @State private var height: String = ""
     @State private var weight: String = ""
     
-    @State private var isEditing = false
-    
     @State private var isMale: Bool = true
     @State private var isFemale: Bool = true
     
